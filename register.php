@@ -1,7 +1,6 @@
 <?php
 session_start();
-include 'config.php';
-
+require_once __DIR__ . '/config.php';
 $message = "";
 
 if (isset($_POST['register'])) {
