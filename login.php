@@ -22,7 +22,7 @@ if (isset($_POST['login'])) {
             $_SESSION['login'] = true;
             $_SESSION['username'] = $user['username'];
 
-            header("Location: dashboard.php");
+            header("Location: home.html");
             exit;
         } else {
             $message = "Password salah!";
